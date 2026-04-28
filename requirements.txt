@@ -11,4 +11,4 @@ uvicorn
 streamlit
 python-dotenv
 httpx
-torch==2.2.2+cpu
+torch==2.5.0+cpu
