@@ -1,3 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 langchain
 langgraph
 langchain-groq
@@ -10,4 +12,4 @@ uvicorn
 streamlit
 python-dotenv
 httpx
-
+torch==2.11.0+cpu
