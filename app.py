@@ -105,7 +105,7 @@ if st.button("Generate Report"):
 
             try:
                 response = httpx.post(
-                    "http://127.0.0.1:8000/research",
+                    "https://research-synthesizer-agent-production.up.railway.app/research",
                     json={"topic": topic},
                     timeout=120
                 )
